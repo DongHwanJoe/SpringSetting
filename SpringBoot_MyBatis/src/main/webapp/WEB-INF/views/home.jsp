@@ -17,6 +17,10 @@
 				<li>${tmp }</li>
 			</c:forEach>
 		</ul>
+		
+		<h3>resources/images 폴더안에 있는 이미지</h3>
+		<img src="${pageContext.request.contextPath}/resources/images/kim1.png"/>
+		
 	</div>
 </body>
 </html>
