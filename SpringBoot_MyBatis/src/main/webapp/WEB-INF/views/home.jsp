@@ -21,6 +21,12 @@
 		<h3>resources/images 폴더안에 있는 이미지</h3>
 		<img src="${pageContext.request.contextPath}/resources/images/kim1.png"/>
 		
+		<h3>파일 업로드폼</h3>
+		<form action="${pageContext.request.contextPath}/upload" method="post"
+			enctype="multipart/form-data">
+			첨부파일 <input type="file" name="file" />
+			<button>업로드</button>
+		</form>
 	</div>
 </body>
 </html>
